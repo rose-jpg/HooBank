@@ -7,7 +7,7 @@ function Hero() {
     <div>
       <div className='bg-primary flex justify-center items-start '>
         <div className='xl:max-w-[1280px] w-full'>
-          <div id='home'className=" flex md:flex-row flex-col px-6 sm:px-16">
+          <div id='home'className=" flex md:flex-row flex-col">
             <div className='flex-1 flex justify-center items-start flex-col xl:px-0 '>
               <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
                 <img className='w-[32px] h-[32px]' src={discount} alt='' />

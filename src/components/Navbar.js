@@ -6,7 +6,7 @@ function Navbar() {
   const [toggle, setToggle] = useState(false)
   return (
     <div>
-      <div className='px-6 sm:px-16 flex justify-center items-center'>
+      <div className='flex justify-center items-center'>
         <div className='xl:max-w-[1280px] w-full'>
           <nav className='w-full flex justify-between py-6 items-center'>
             <img className='w-[124px] h-[32px]' src={logo} alt='' />
