@@ -4,11 +4,10 @@ import { apple, bill, google } from "../assets"
 function Billing() {
   return (
     <div>
-      <div className='flex md:flex-row flex-col-reverse '>
-        <div className='flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative'>
+      <div className='flex md:flex-row flex-col-reverse mt-48 '>
+        <div className='flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative'>
           <img className="w-[100%] h-[100%] relative z-index-[5]" src={bill} alt="" />
-          <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient"/>
-          <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient"/>
+        
          
         </div>
         <div className="flex-1 flex justify-center items-start flex-col">

@@ -1,6 +1,8 @@
 import React from "react"
-import { discount, robot } from "../assets"
+import { discount, robot} from "../assets"
 import GetStarted from "./GetStarted"
+
+import Monkey from "../assets/Monkey.png"
 
 function Hero() {
   return (
