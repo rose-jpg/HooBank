@@ -4,7 +4,7 @@ import Button from "../components/Button"
 
 function Business() {
   return (
-    <div className="mt-20">
+    <div className="sm:mt-48 mt-20">
       <div className='flex md:flex-row flex-col'>
         <div className='flex flex-col flex-1 justify-center items-start '>
           <h2 className='font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full'>

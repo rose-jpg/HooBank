@@ -4,7 +4,7 @@ import { apple, bill, google } from "../assets"
 function Billing() {
   return (
     <div>
-      <div className='flex md:flex-row flex-col-reverse mt-48 '>
+      <div className='flex md:flex-row flex-col-reverse mt-20 sm:mt-48 '>
         <div className='flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative'>
           <img className="w-[100%] h-[100%] relative z-index-[5]" src={bill} alt="" />
         
