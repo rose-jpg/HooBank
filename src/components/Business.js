@@ -20,7 +20,7 @@ function Business() {
             <Button />
           </div>
         </div>
-        <div className='flex flex-col justify-center items-start flex-1 sm:mt-0 mt-3'>
+        <div className='flex flex-col justify-center items-start flex-1 sm:mt-0 mt-1'>
           {features.map((item) => {
             return (
               <li
