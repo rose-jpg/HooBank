@@ -10,7 +10,7 @@ function Counter() {
         onEnter={() => setCounterOn(true)}
         onExit={() => setCounterOn(false)}
       >
-        <div className='flex justify-center items-center sm:flex-row flex-col '>
+        <div className='flex justify-center sm:items-center items-start sm:flex-row flex-col '>
           <div className="flex-1 flex items-center xs:justify-start justify-center m-3">
             <h4 className="xs:text-[40px] text-[30px] text-white mr-2 font-poppins">
               {counterOn && (
